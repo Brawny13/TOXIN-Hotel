@@ -1,0 +1,33 @@
+- var pageTitle = 'Hotel-Toxin'
+
+doctype html
+head
+  meta(charset='UTF-8')
+  style
+    include header/_header.css
+  title= pageTitle 
+.wrapper
+  header.header
+    .header__container
+      a.header__logo(href='')
+        img(src='/src/img/logo.png', alt='logo')
+      nav.header__menu.menu
+        ul.menu__list
+          li.menu__item.menu__item-active О нас
+          li.menu__item Услуги
+          .dropdown
+            select
+              option(value='')
+              option(value='')
+              option(value='')
+          li.menu__item Вакансии
+          li.menu__item Новости
+          li.menu__item Соглашения
+          .dropdown
+            select
+              option(value='')
+              option(value='')
+              option(value='')
+        .header__button
+          a.header__button-active(href='') войти
+          a.header__button(href='') Зарегистрироваться
