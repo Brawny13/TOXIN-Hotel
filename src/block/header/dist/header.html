@@ -63,12 +63,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  src: url(/src/fonts/Montserrat-VariableFont_wght.ttf); }
+  src: url(/src/fonts/Montserrat-Italic-VariableFont_wght.ttf); }
 body {
   background: #F4F4F6;
-  max-width: 1440px;
-  max-height: 1350px;
-  margin: 0px auto; }
+  height: 1350px;
+  max-width: 1440px; }
 
 .header__container {
   display: flex;
@@ -91,7 +90,6 @@ body {
   margin-left: 20.28rem; }
 
 .menu__list {
-  align-items: center;
   display: flex;
   justify-content: center; }
 
@@ -110,31 +108,13 @@ body {
   font-weight: 700; }
 
 .header__button {
-  display: flex;
-  justify-content: flex-end; }
-
-.btn {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  text-transform: uppercase;
-  color: white;
-  border: 2px solid #bc9cff;
   border-radius: 22px;
-  margin-left: 1.43rem;
-  padding: 0.75rem 1.66rem;
-  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%); }
-  .btn-active {
-    color: #BC9CFF;
-    background: #FFFFFF; }
+  margin-left: 1.43rem; }
 
-.btn:active {
-  opacity: 0.5; }
-
-.btn:focus {
-  opacity: 0.5; }
+.btn-active {
+  border-color: #bc9cff #8ba4f9;
+  line-height: 15px;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=_header.css.map */
 
@@ -166,7 +146,7 @@ body {
             </select>
           </div>
         </ul>
-        <div class="header__button"><a class="btn btn-active" href="">войти</a><a class="btn" href="">Зарегистрироваться</a></div>
+        <div class="header__button"><a class="btn_btn-active" href="">войти</a><a class="btn" href="">Зарегистрироваться</a></div>
       </nav>
     </div>
   </header>

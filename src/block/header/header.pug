@@ -4,7 +4,7 @@ doctype html
 head
   meta(charset='UTF-8')
   style
-    include header/_header.css
+    include _header.css
   title= pageTitle 
 .wrapper
   header.header
@@ -13,21 +13,26 @@ head
         img(src='/src/img/logo.png', alt='logo')
       nav.header__menu.menu
         ul.menu__list
-          li.menu__item.menu__item-active О нас
-          li.menu__item Услуги
+          li.menu__item.menu__item-active 
+            a.header__link(href='') О нас
+          li.menu__item 
+            a.header__link(href='') Услуги
           .dropdown
             select
               option(value='')
               option(value='')
               option(value='')
-          li.menu__item Вакансии
-          li.menu__item Новости
-          li.menu__item Соглашения
+          li.menu__item 
+            a.header__link(href='') Вакансии
+          li.menu__item
+            a.header__link(href='') Новости
+          li.menu__item 
+            a.header__link(href='') Соглашения
           .dropdown
             select
               option(value='')
               option(value='')
               option(value='')
         .header__button
-          a.header__button-active(href='') войти
-          a.header__button(href='') Зарегистрироваться
+          a.btn.btn-active(href='') войти
+          a.btn(href='') Зарегистрироваться

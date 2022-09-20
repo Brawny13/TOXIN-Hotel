@@ -1,0 +1,19 @@
+@import url(e:\TOXIN-Hotel\src\libs\normalize.css);
+@font-face {
+  font-family: Montserrat;
+  src: url("fonts/Montserrat-Italic-VariableFont_wght.ttf") format("ttf");
+}
+
+body {
+  font-family: 'Montserrat';
+  background-color: #504ebf;
+  color: #be9797;
+}
+
+.image {
+  width: 1000px;
+  height: 500px;
+  background-size: cover;
+  background-image: url("img/website.jpg");
+}
+/*# sourceMappingURL=index.css.map */
